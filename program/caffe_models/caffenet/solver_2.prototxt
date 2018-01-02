@@ -1,0 +1,16 @@
+net: "/caffe/Build/x64/Release/pycaffe/deeplearning-cats-dogs-tutorial/caffe_models/caffe_model_2/caffenet_train_val_2.prototxt"
+test_iter: 4
+test_interval: 10
+test_initialization: false
+random_seed:87779
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 2000
+display: 1
+max_iter:210
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 210
+snapshot_prefix: "/caffe/Build/x64/Release/pycaffe/deeplearning-cats-dogs-tutorial/caffe_models/caffe_model_2/caffe_model_2"
+solver_mode: GPU
